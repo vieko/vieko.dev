@@ -14,14 +14,10 @@
   --color-slate: oklch(21.18% 0 0);
   /* #f9f8f2 */
   --color-paper: oklch(96.84% 0.008 85.87);
-  /* #e0e0d4 */
-  --color-stone-light: oklch(89.41% 0.006 85.87);
   /* #b6b69c */
-  --color-stone-dark: oklch(74.51% 0.012 85.87);
+  --color-stone: oklch(74.51% 0.012 85.87);
   /* #dc4144 */
-  --color-flame-light: oklch(58.32% 0.197 27.33);
-  /* #c53133 */
-  --color-flame-dark: oklch(53.89% 0.197 27.33);
+  --color-flame: oklch(58.32% 0.197 27.33);
 }
 
 @layer base {
