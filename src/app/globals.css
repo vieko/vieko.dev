@@ -6,10 +6,6 @@
 
   --color-*: initial;
 
-  /* #fff */
-  --color-white: oklch(100% 0 0);
-  /* #000 */
-  --color-black: oklch(0% 0 0);
   /* #252525 */
   --color-slate: oklch(21.18% 0 0);
   /* #f9f8f2 */
