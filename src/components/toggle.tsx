@@ -28,7 +28,12 @@ interface ToggleProps {
   className?: string
 }
 
-export default function Toggle({ children, id, toggleClass = 'text-flame', className = '' }: ToggleProps) {
+export default function Toggle({
+  children,
+  id,
+  toggleClass = 'text-flame',
+  className = '',
+}: ToggleProps) {
   const context = useContext(ToggleContext)
 
   if (!context) {
@@ -40,7 +45,7 @@ export default function Toggle({ children, id, toggleClass = 'text-flame', class
 
   return (
     <span
-      className={`inline cursor-pointer rounded transition-colors duration-150 ${
+      className={`inline cursor-default rounded transition-colors duration-150 ${
         isActive ? toggleClass : ''
       } ${className}`}
       onClick={() => toggleElement(id)}
@@ -49,4 +54,3 @@ export default function Toggle({ children, id, toggleClass = 'text-flame', class
     </span>
   )
 }
-
