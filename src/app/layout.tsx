@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from 'next'
+import type { Metadata } from 'next'
 import { Inter, Space_Mono } from 'next/font/google'
 import './globals.css'
 
@@ -16,10 +16,6 @@ const space = Space_Mono({
 export const metadata: Metadata = {
   title: 'Vieko Franetovic',
   description: 'Head of Engineering at Devolver Digital',
-}
-
-export const viewport: Viewport = {
-  colorScheme: 'light',
 }
 
 export default function RootLayout({
