@@ -1,3 +1,1 @@
-# vieko.dev
-
-very simple landing page
+### vieko.dev
